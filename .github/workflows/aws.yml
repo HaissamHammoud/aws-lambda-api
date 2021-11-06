@@ -7,9 +7,9 @@ on:
 name: Python project to ecr
 
 env:
-  AWS_REGION: sa-east-1
+  AWS_REGION: MY_AWS_REGION
 
-  jobs:
+jobs:
   deploy:
     name: Deploy
     runs-on: ubuntu-latest
